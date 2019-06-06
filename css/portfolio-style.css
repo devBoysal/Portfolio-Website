@@ -1,0 +1,145 @@
+/* Typography */
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #2d3c49;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.5em;
+}
+
+h4 {
+    font-size: 1.25em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Global styles */
+
+.main-container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* Top Banner */
+
+.logo {
+    width: 65px;
+    float: left;
+}
+
+.banner {
+    text-align: right;
+    margin: 30px 0px 30px 0px;
+}
+
+.page-break {
+    border: 2px;
+    border-style: solid;
+    background-color: #7d97ad;
+    height: 1px;
+    color: #7d97ad;
+    border-radius: 2px;
+    margin-bottom: 30px;
+}
+
+.background-color {
+    background-color: #8fbc8f;
+}
+
+/* Hero */
+
+.hero-bg {
+    background-image: url(../images/project-background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 400px;
+    width: inherit;
+    max-width: 100%;
+    padding: 15px;
+}
+
+/* Project links */
+
+.link-photo {
+    width: 100%;
+}
+
+.project-link {
+    height: 40px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.project-description {
+    font-family: "Courier New", Courier, monospace;
+    text-transform: uppercase;
+    font-weight: lighter;
+    color: #2d3c49;
+    text-align: center;
+}
+
+.project-wrapper {
+    flex-direction: row;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+    .project-wrapper {
+        flex-direction: column;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        align-items: center;
+        align-content: center;
+    }
+    .project-link {
+        height: 370px;
+        display: inline-block;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    h1 {
+        font-size: 2.5em;
+    }
+    .hero-bg {
+        background-image: url(../images/project-background.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 200px;
+        width: inherit;
+        max-width: 100%;
+    }
+    h2 {
+        font-size: 2em;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .page-break {
+        border: 2px;
+        border-style: solid;
+        background-color: #7d97ad;
+        height: 1px;
+        color: #7d97ad;
+        border-radius: 2px;
+        margin-bottom: 0px;
+    }
+}
