@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Courier New", Courier, monospace;
     text-transform: uppercase;
     font-weight: lighter;
-    color: #2d3c49;
+    color: #8bbbe6;
     margin: 0;
 }
 
@@ -24,6 +24,9 @@ h2 {
 
 /* Global styles */
 
+body{
+    background-color: #272727;
+}
 .main-container {
     max-width: 980px;
     margin: 0 auto;
@@ -32,8 +35,10 @@ h2 {
 /* Top Banner */
 
 .logo {
-    width: 65px;
+    width: 120px;
     float: left;
+    z-index: -1;
+    position: relative;
 }
 
 .banner {
@@ -44,7 +49,7 @@ h2 {
 .page-break {
     border: 2px;
     border-style: solid;
-    background-color: #7d97ad;
+    background-color: #8bbbe6;
     height: 1px;
     color: #7d97ad;
     border-radius: 2px;
@@ -66,12 +71,14 @@ h2 {
     width: inherit;
     max-width: 100%;
     padding: 15px;
+    border-radius: 2px;
 }
 
 /* Project links */
 
 .link-photo {
     width: 100%;
+    border-radius: 5px;
 }
 
 .project-link {
