@@ -4,7 +4,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: "Courier New", Courier, monospace;
     text-transform: uppercase;
     font-weight: lighter;
-    color: #8bbbe6;
+    color: #575757;
     margin: 0;
 }
 
@@ -25,7 +25,7 @@ h2 {
 /* Global styles */
 
 body{
-    background-color: #272727;
+    background-color: #fff6ec;
 }
 .main-container {
     max-width: 980px;
@@ -50,8 +50,9 @@ body{
     border: 2px;
     border-style: solid;
     background-color: #8bbbe6;
+    /* background-color: #8bbbe6; */
     height: 1px;
-    color: #7d97ad;
+    color: #8bbbe6;
     border-radius: 2px;
     margin-bottom: 30px;
 }
